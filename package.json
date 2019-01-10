@@ -3,8 +3,6 @@
   "version": "1.0.0",
   "dependencies": {
     "jquery": "^3.3.1",
-    "normalize.css": "^8.0.1",
-    "sass": "^1.16.0",
-    "uglify-js": "^3.4.9"
+    "normalize.css": "^8.0.1"
   }
 }
