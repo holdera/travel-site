@@ -13,8 +13,8 @@ node_modules/
 .tmp/
 
 # OS or Editor folders
-.DS_Store
-Thumbs.db
+.DS_Store #system file that mac creates
+Thumbs.db # windows operator system feature, that windows makes whenever theres images
 .cache
 .project
 .settings
