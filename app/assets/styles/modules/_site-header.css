@@ -10,7 +10,12 @@
     }
 
     @mixin atMedium {
-        background-color: rgba($mainblue, 0.3);
+        position: fixed;
+        background-color: rgba($mainblue, .3);
+
+        &--dark {
+            background: rgba(23,51,72,.85);
+        }
 
     }
 
@@ -28,11 +33,15 @@
         left: 50%;
         transform: translateX(-50%) scale(.8);
         transform-origin: 50% 0%;
+        transition: transform .3s ease-out;
         @mixin atMedium {
             left:auto;
-            transform: translateX(0) scale(1);
-            transform-orgin: 50% 100%;
-
+            transform: translateX(0);
+            /* transform-orgin: 50% 100%; */
+            .site-header--dark & {
+                transform: scale(.57);
+            }
+            
         }
     }
 
